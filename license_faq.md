@@ -4,6 +4,23 @@
 
 
 
+大纲（暂定）
+
+- 开源和版权意识
+  - 题引
+  - 中国开源现状
+  - 版权意识现状
+- 开源许可证
+  - 版权、著作权概念（法律）
+  - 什么是开源，开源的宗旨
+  - 开源协议的组成和名词解释
+  - 常见开源许可证对比（图和对比说明）
+- FAQ
+  - GPL
+  - 商业化
+  - 法律
+  - 等等
+
 章一
 
 第一段 题引
@@ -86,17 +103,21 @@ Onyx事件在网络上引起广泛的讨论，有人表明绝不会购买Onyx产
 
 
 
+开源软件取得的成果（待整理）
+
+开源项目的快速涌现，不仅繁荣了全球软件产 业，也创立了开源项目独有的盈利模式，世界上排名前 500 的超级计算机中有 90%以上均 搭载 Linux 操作系统; 全世界有 70%的互联网服务器软件都是在基于开源基础上发展起来 的。开源项目已经覆盖到操作系统、桌面环境、办公处理、数据库等所有软件类型，开源软件 已经成为互联网发展，软件发展不可缺少的支柱型产业。
+
+
+
 所以，我们看到，操作系统Linux、Android；编辑器Vim、Emacs、Atom、Brackets、VS code，版本管理系统SVN、Git；数据库MySQL、MongoDB、Redis、Postgres；大数据平台Hadoop、Elasticsearch、Hbase、Spark；Web服务器Apache、Nginx、Node.js、Tomcat；DevOps工具Jenkins、Maven、Ansible、Chef；虚拟化软件KVM、Xen、Docker、Kubernetes，如雨后春笋般应运而生，这些列出的和没有列出的开源软件，形成了一个完整的软件生态环境，黑客们已经生活在一个很幸福的时代，他几乎是想要什么就有什么，而几乎在所有的IT企业和大型非IT企业里，你都能看到这些开源软件的身影[]
 
 
 
-开源的7大理念https://mp.weixin.qq.com/s/15kCZNCG1psxyWv0WfOHAw
-
-
-
-
-
 段三
+
+
+
+开源的7大理念https://mp.weixin.qq.com/s/15kCZNCG1psxyWv0WfOHAw
 
 开源协议的组成
 
