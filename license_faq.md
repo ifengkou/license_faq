@@ -8,7 +8,7 @@
 
 第一段 题引
 
-最近 中国厂商 Oynx 拒发源码，被指违反 GPL 许可在国内外社交网络上被讨论的沸沸扬扬，缘由是Onyx 的电子书设备基于 Linux 内核修改发布的，而 Linux 内核基于 GPL v2 许可证发布，由于该许可证具备“传染性”，要求在进行二次分发时使用相同的许可证。根据 Reddit上的对话截图，有人向 Onyx 指出了其[违规问题](https://www.reddit.com/r/Onyx_Boox/comments/hk7d5v/onyx_is_violating_the_linux_kernels_license/)，而 Onyx 官方回应“技术团队表示目前不能把源码开放”，并希望他人谅解
+最近 中国厂商 Oynx 拒发源码，被指违反 GPL 许可在国内外社交网络上被讨论的沸沸扬扬[]，缘由是Onyx 的电子书设备基于 Linux 内核修改发布的，而 Linux 内核基于 GPL v2 许可证发布，由于该许可证具备“传染性”，要求在进行二次分发时使用相同的许可证。根据 Reddit上的对话截图，有人向 Onyx 指出了其[违规问题](https://www.reddit.com/r/Onyx_Boox/comments/hk7d5v/onyx_is_violating_the_linux_kernels_license/)，而 Onyx 官方回应“技术团队表示目前不能把源码开放”，并希望他人谅解
 
 图
 
@@ -18,17 +18,17 @@ Onyx事件在网络上引起广泛的讨论，有人表明绝不会购买Onyx产
 
 第二段 中国开源环境现状
 
-中国是世界的一部分，开源亦是。中国已经逐渐成为开源世界的重要玩家。根据全球最大代码托管平台 GitHub 在 2019 年发布的[年度报告](https://www.infoq.cn/article/bWhDOufOZrL7r3ZuBopy)中显示
+虽然网上的留言不理性，但是实际上中国已经逐渐成为开源世界的最重要的玩家之一。根据全球最大代码托管平台 GitHub 在 2019 年发布的[年度报告](https://www.infoq.cn/article/bWhDOufOZrL7r3ZuBopy)中显示
 
-2019年中国、印度和德国的开源使用速度加快。中国的开发者`forked`和`cloned`的项目比去年多48%。
-
-图
-
-截至2018年，中国成为 GitHub 贡献排名第二的国家，排名仅次于美国
+2019年中国、印度和德国的开源使用速度加快。中国的开发者`forked`和`cloned`的项目比去年多48%。[]
 
 图
 
-在开源贡献度上阿里、百度、PingCap、腾讯，除了头部的大厂，也有越来越多的中小企业积极拥抱开源，将自己的产品贡献给顶级的开源基金会，例如Apache基金会，Kylin、 DolphinScheduler（待补充）
+2018年年度报告中显示，中国成为 GitHub 贡献排名第二的国家，排名仅次于美国[]
+
+图
+
+在开源贡献度排行榜上 []，中国企业 阿里、百度、PingCap、腾讯，除了头部的大厂，也有越来越多的中小企业积极拥抱开源，将自己的产品贡献给顶级的开源基金会，例如Apache基金会，Kylin、 DolphinScheduler（待补充）
 
 图
 
@@ -56,25 +56,17 @@ Onyx事件在网络上引起广泛的讨论，有人表明绝不会购买Onyx产
 
 段一 基础： 版权、著作权概念
 
-先了解下法律上的 著作权/版权
+开源软件许可证与软件著作权
 
-中华人民共和国著作权法
+1980 年，美国国会通过“96—517 号公法”，计算机程序被增加为著作权保护的对象之一。而后，《伯尔尼公约》、《与贸易有关的知识产权协议》、《世界知识产权组织版权条约》等国际公约均将计算机软件纳入版权的保护范围，各国立法也将计算机程序纳入著作权法的保护范围。在我国，《中华人民共和国著作权法》、《计算机软件保护条例》等均规定计算机软件是我国著作权法上的作品，开源软件本质上也是计算机软件，自然受到我国著作权法的保护。
 
-美国版权法
+根据《计算机软件保护条例》第 8 条规定，软件著作权人享有下列人身权利和财产权利：发表权；署名权； 修改权；复制权；发行权；出租权；信息网络传播权； 翻译权； 其他应当由软件著作权人享有的权利。许可他人行使其软件著作权，并有权获得报酬；全部或者部分转让其软件著作权，并有权获得报酬。
 
-
-
-协议是否具备法律效应。。。
-
-暂时在法律上没有特别明确的法律地位。
-
-开源许可证既不是一种法律明文规定的权利，也不是一般意义的合同。但它仍然具备一定的法律效力。
-
-此前研究过一些CC协议的司法判例，某些情况下会被法院所采纳与支持。毕竟CC协议和开源许可证，在法律世界里的根基是著作权。其他人如果不遵守约定，作者还是可以拿起著作权来保护自身权益。
+相较于传统计算机软件著作权，开源软件著作权的特殊性在于，开源软件著作权人通过许可协议的方式将部分著作权( 例如复制权，修改权、发行权) 无偿授予愿意接受许可证的人，让被许可人可以复制、修改、商业使用、再分发。虽然开源软件允许用户无偿自由使用，但这种行为并不是毫无限制的，用户必须在遵循许可协议的条件下使用开源软件，大部分开源许可证都明确规定，在修改源代码时，必须注明状态变更记录，保留版权声明，不得侵犯作者的署名权和商标，并且为了避免著作权人遭遇法律诉讼，开源许可证都会带上免责声明，表明该软件不提供任何保证（不管是显式的还是隐式的，包括但不限于适销性保证、适用性保证、非侵权性保证），在任何情况下，著作权人都概不负责。
 
 
 
-美国案例和中国案例
+虽然开源软件许可证是以版权法或著作权法为基础，但开源许可证的法律效力并没有被明确认可，也就是说许可证既不是一种法律明文规定的权利，也不是一般意义上的合同（默认格式条款，双方无沟通或协商）。被许可人若违反许可证协议，首先成立违约行为，无需承担违约责任。在违约责任外，能否追诉违约者的著作权侵权责任却是困难重重，在实际案例中，美国Jacobsen v.Katzer 一案，德国Welte 诉 D-Link 一案均表明可以通过著作权侵权保护开源软件的权利，但是在中国，目前还没有特别明确的侵权诉讼案例
 
 
 
@@ -84,11 +76,23 @@ Onyx事件在网络上引起广泛的讨论，有人表明绝不会购买Onyx产
 
 
 
+软件商品化始于 1969 年美国IBM公司实行的计算机软 件与硬件“价格分离”政策。软件著作权由此得以发展。天生的具备垄断倾向的软件著作权，阻断了全人类可以开放地对计算机软件程序进行自由研究和开发。为了打破源代码由程序员部分垄断的局面，1983 年，由理查德·马修·斯托曼( Ｒichard Matthew Stallman) 启动 的“GUN”计划提出了自由软件( Free Software) ，打开了开源运动的序幕。并且创立的 GPL 许可，GPL许可证承认原始作者的著作权，向公众提供源代码，并且允许公众进行复制，传播和再发布，修改和制作演绎作品，但任何基于 GPL 软件开发的衍生产品在发布时必须采用 GPL 许可证方式，且必须公开源代码。由于GPL要求哪怕是软件中微小一部分使用了GPL，也要求整个软件公开所有源代码，这个就是GPL的强传染性，也许是因为GPL的强传染性，导致自由软件数量非常小，发展停滞不前。1998 年，艾瑞克·雷蒙德( Eric Raymond) 和布鲁·佩伦 斯( Bruce Perens) 提出了用开放源代码软件( Open source software) 取代自由软件的提法，并成立开放源代码促进会（Open Source Initiative，缩写：**OSI**）。开源软件并不再局限于“强传染性”的 GPL 许可证，而是在保证软件源代码开放的同时，允许权利人自行设计许可证并且由 OSI 组织加以审核认证。目前所有被OSI批准的许可证已有上百中，其中包括大名鼎鼎的Apache License v2、BSD、GNU GPL、LGPL、MIT、CDDL等，也国内贡献的中文编写的木兰宽松许可证MulanPSL-2.0
+
+
+
+开源软件(**open source software，简称OSS**)区别于专有软件、闭源商业软件， 开源软件是指向社会公众开放软件源代码，软件的著作权人保留一部分权利，允许代码获得者可以依据不同许可证的授权方式在源代码基础上自由使用、修改并允许再发布的软件。
+
+如果只是将源码公开，没有相应的权利许可，或者是作者设置了自由使用的条件限制，例如限制派生产品Discuz，限制使用用户数的Gitlab，这些软件均不能被称之为开源软件。在软件行业，一般认为开源软件对应的是使用通过OSI 组织认证的许可证协议的软件
+
+
+
+所以，我们看到，操作系统Linux、Android；编辑器Vim、Emacs、Atom、Brackets、VS code，版本管理系统SVN、Git；数据库MySQL、MongoDB、Redis、Postgres；大数据平台Hadoop、Elasticsearch、Hbase、Spark；Web服务器Apache、Nginx、Node.js、Tomcat；DevOps工具Jenkins、Maven、Ansible、Chef；虚拟化软件KVM、Xen、Docker、Kubernetes，如雨后春笋般应运而生，这些列出的和没有列出的开源软件，形成了一个完整的软件生态环境，黑客们已经生活在一个很幸福的时代，他几乎是想要什么就有什么，而几乎在所有的IT企业和大型非IT企业里，你都能看到这些开源软件的身影[]
+
+
+
 开源的7大理念https://mp.weixin.qq.com/s/15kCZNCG1psxyWv0WfOHAw
 
 
-
-所以，我们看到，操作系统Linux、Android；编辑器Vim、Emacs、Atom、Brackets、VS code，版本管理系统SVN、Git；数据库MySQL、MongoDB、Redis、Postgres；大数据平台Hadoop、Elasticsearch、Hbase、Spark；Web服务器Apache、Nginx、Node.js、Tomcat；DevOps工具Jenkins、Maven、Ansible、Chef；虚拟化软件KVM、Xen、Docker、Kubernetes，如雨后春笋般应运而生，这些列出的和没有列出的开源软件，形成了一个完整的软件生态环境，黑客们已经生活在一个很幸福的时代，他几乎是想要什么就有什么，而几乎在所有的IT企业和大型非IT企业里，你都能看到这些开源软件的身影
 
 
 
@@ -132,10 +136,13 @@ Onyx事件在网络上引起广泛的讨论，有人表明绝不会购买Onyx产
 
 - onyx事件https://www.reddit.com/r/Onyx_Boox/comments/hk7d5v/onyx_is_violating_the_linux_kernels_license/
 - 2019中国开源报告https://github.com/kaiyuanshe/2019-China-Open-Source-Report/blob/master/insight.md
+- 2019 GitHub 开源贡献排行榜https://mp.weixin.qq.com/s/_q812aGD1b9QvZ2WFI0Qgw
 - matlap事件https://www.oschina.net/news/116379/matlab-ban-and-edu-schools
 - 专家解读：开源软件项目是否会被限制出口?https://mp.weixin.qq.com/s/_wmBHskWi5CCTjDWu6fMAg
 - 中华人民共和国著作权法 https://www.wipo.int/edocs/lexdocs/laws/zh/cn/cn031zh.pdf
 - 世界版权公约[https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E7%89%88%E6%9D%83%E5%85%AC%E7%BA%A6](https://zh.wikipedia.org/wiki/世界版权公约)
 - 伯尔尼公约[https://zh.wikipedia.org/wiki/%E4%BC%AF%E5%B0%94%E5%B0%BC%E4%BF%9D%E6%8A%A4%E6%96%87%E5%AD%A6%E5%92%8C%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81%E5%85%AC%E7%BA%A6](https://zh.wikipedia.org/wiki/伯尔尼保护文学和艺术作品公约)
 - GPL FAQ  https://www.gnu.org/licenses/gpl-faq.html
+- 论开源软件的著作权风险及相应对策 http://fxy.buaa.edu.cn/kaiyuanxiaojianhua.pdf
+- OSI  https://opensource.org/licenses/alphabetical
 
