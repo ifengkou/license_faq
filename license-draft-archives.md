@@ -297,3 +297,15 @@ java使用的开源协议是gplv2  ，那岂不是用java开发出来的各种�
 - 木兰许可证 https://license.coscl.org.cn/MulanPSL2/index.html
 - 开源的7大理念https://mp.weixin.qq.com/s/15kCZNCG1psxyWv0WfOHAw
 - 阮一峰 开源许可证教程https://www.ruanyifeng.com/blog/2017/10/open-source-license-tutorial.html
+
+
+
+论开源软件的著作权风险及相应对策 http://fxy.buaa.edu.cn/kaiyuanxiaojianhua.pdf
+
+
+
+1. Artifex诉Hancom案件记录https://docs.justia.com/cases/federal/district-courts/california/candce/3:2016cv06982/305835/54
+2. https://cases.justia.com/federal/district-courts/california/candce/3:2016cv06982/305835/54/0.pdf?ts=1505292066
+3. FSF对于Artifex诉Hancom案件解读https://www.fsf.org/blogs/licensing/motion-to-dismiss-denied-in-recent-gnu-gpl-case 
+4. FSF对于Artifex诉Hancom案件解读2https://www.fsf.org/blogs/licensing/update-on-artifex-v-hancom-gnu-gpl-compliance-case-1
+5. Artifex诉Hancom:违反GPL是否违反合同 https://www.synopsys.com/blogs/software-security/breach-gpl-license-breach-contract/
